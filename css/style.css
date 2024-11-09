@@ -45,13 +45,13 @@ header {
 .logo {
   width: 200px;
   height: auto;
-  padding-bottom: 200px;
+  padding-bottom: 220px;
 }
 
 nav {
   display: flex;
   gap: 20px;
-  padding-bottom: 200px;
+  padding-bottom: 220px;
 }
 
 nav a {
@@ -72,7 +72,7 @@ nav a {
 }
 
 .service h1 {
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   font-weight: 600;
   margin: 0;
   font-family: 'Cormorant Garamond', serif;
@@ -87,7 +87,7 @@ nav a {
 .signup {
   width: 200px;
   height: auto;
-  padding-bottom: 200px;
+  padding-bottom: 220px;
 }
 
 .services {
@@ -109,7 +109,7 @@ nav a {
 } */
 
 .services h2 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   margin-bottom: 15px;
   margin-top: -120px;
   color: #FFFFFF;
@@ -153,10 +153,11 @@ nav a {
 }
 
 .service-item h3 {
-  font-size: 1.8rem;
+  font-size: 3rem;
   color: var(--black);
   margin-bottom: 10px;
   font-family: 'Cormorant Garamond', serif;
+  font-weight: normal;
 }
 
 .service-item p {
@@ -179,13 +180,13 @@ section p {
 }
 
 .Package h2 {
-  font-size: 3.5em;
+  font-size: 4em;
   margin-bottom: 10px;
   font-family: 'Cormorant Garamond', serif;
 }
 
 .Package p {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #aaa;
   margin-bottom: 30px;
   font-family: 'Manrope', sans-serif;
@@ -210,13 +211,13 @@ section p {
 }
 
 .package-item h3 {
-  font-size: 1.5em;
+  font-size: 2rem;
   margin-bottom: 10px;
   font-family: 'Manrope', sans-serif;
 }
 
 .package-item .price {
-  font-size: 1.8em;
+  font-size: 3em;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -231,8 +232,15 @@ section p {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
+  /* Espacio entre el tick y el texto */
   font-size: 1.5em;
+}
+
+.package-item ul li img {
+  width: 1em;
+  /* Ajusta el tamaño del tick según tus preferencias */
+  height: auto;
 }
 
 .package-item button {
@@ -245,7 +253,7 @@ section p {
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s ease;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .package-item button:hover {
@@ -279,7 +287,7 @@ section p {
 }
 
 .appointment h2 {
-  font-size: 3.5em;
+  font-size: 4em;
   margin-bottom: 10px;
   color: #FFFFFF;
   margin-top: 50px;
@@ -287,7 +295,7 @@ section p {
 }
 
 .appointment p {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #aaa;
   margin-bottom: 0px;
   font-family: 'Manrope', sans-serif;
@@ -299,6 +307,7 @@ section p {
   color: #FFFFFF;
   padding-bottom: 20px;
   font-family: 'Manrope', sans-serif;
+  font-weight: normal;
 }
 
 .appointmentbuttons {
@@ -318,6 +327,8 @@ section p {
   /* Borde dorado */
   padding: 15px 35px;
   font-size: 1.5em;
+  font-family: 'Manrope', sans-serif;
+  font-weight: normal;
   cursor: pointer;
   border-radius: 5px;
   /* Bordes redondeados */
@@ -361,6 +372,8 @@ section p {
   /* Aumenta el ancho */
   font-size: 1.7em;
   /* Aumenta el tamaño de la fuente */
+  font-family: 'Manrope', sans-serif;
+  font-weight: normal;
 }
 
 .appointment-form input::placeholder,
@@ -379,6 +392,8 @@ section p {
   cursor: pointer;
   border-radius: 10px;
   transition: background-color 0.3s ease;
+  font-family: 'Manrope', sans-serif;
+  font-weight: normal;
 }
 
 .book-button:hover {
@@ -399,7 +414,7 @@ section p {
 
 .stay h2 {
   color: white;
-  font-size: 3.5rem;
+  font-size: 4.4rem;
   margin: 0;
   font-family: 'Cormorant Garamond', serif;
 }
@@ -409,6 +424,7 @@ section p {
   font-size: 1.2rem;
   max-width: 600px;
   font-family: 'Manrope', sans-serif;
+  font-weight: normal
 }
 
 .email-container {
@@ -425,9 +441,11 @@ section p {
   color: #FFF;
   border: none;
   padding: 15px 20px;
-  font-size: 1rem;
+  font-size: 1.4rem;
   width: 300px;
   outline: none;
+  font-family: 'Manrope', sans-serif;
+  font-weight: normal;
 }
 
 .signup-button {
@@ -435,11 +453,13 @@ section p {
   color: #000;
   border: none;
   padding: 15px 20px;
-  font-size: 1rem;
+  font-size: 1.4rem;
   cursor: pointer;
   border-left: 1px solid #666;
   /* Línea de separación entre input y botón */
   transition: background-color 0.3s ease;
+  font-family: 'Manrope', sans-serif;
+  font-weight: normal;
 }
 
 .signup-button:hover {
@@ -475,6 +495,8 @@ footer {
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 15px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: normal;
 }
 
 .redesabajo img {
@@ -487,7 +509,7 @@ footer {
 .titulo2_2 {
   font-size: 18px;
   margin-bottom: 10px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .subtitulos2 p,
@@ -502,7 +524,7 @@ footer {
 .seccion3 h2 {
   font-size: 18px;
   margin-bottom: 10px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .seccion3 div {
@@ -521,6 +543,8 @@ footer {
   text-align: center;
   font-size: 12px;
   margin-top: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: normal;
 }
 
 .separator {
